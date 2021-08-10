@@ -53,17 +53,19 @@ function seedUserCollection() {
                 title: `Attack on Titan 1`,
                 description: ` humanity has been devastated by the bizarre, giant humanoids known as the Titans. Little is known about where they came from or why they are bent on consuming mankind`,
                 status: `action`,
-              
+                image : 'https://m.media-amazon.com/images/M/MV5BMTYwYjYyZDgtMTQ3My00YTI4LThmZTUtZmU1MjllOWRlOTdhXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg'
             },
             {
                 title: `My Hero Academia 1`,
                 description:`Midoriya inherits the superpower of the world's greatest hero, but greatness won't come easy.`,
                 status: `comidy`,
+                image : 'https://m.media-amazon.com/images/M/MV5BMTYwYjYyZDgtMTQ3My00YTI4LThmZTUtZmU1MjllOWRlOTdhXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg'
             },
             {
                 title: `The Promised Neverland 1`,
                 description: `The children of the Grace Field House orphanage must escape a macabre fate before it's too late.`,
                 status: `drama & horror`,
+                image : 'https://m.media-amazon.com/images/M/MV5BMTYwYjYyZDgtMTQ3My00YTI4LThmZTUtZmU1MjllOWRlOTdhXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg'
             }
         ]
     })
@@ -99,6 +101,6 @@ function seedUserCollection() {
     Khair.save();
 }
 
-
+seedUserCollection();
 
  module.exports =userModel;
